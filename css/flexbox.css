@@ -45,6 +45,22 @@
   width: 23%;
 } /* ------ End Contenido principal ------ */
 
+/* ------ Ventajas de Alura y video informativo ------ */
+.videoSobre .container {
+  display: flex;
+}
+.videoSobre-sobre {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.videoSobre-video {
+  flex-grow: 2;
+}
+.videoSobre-sobre-list {
+  flex-grow: 2;
+} /* ------ Fin Ventajas de Alura y video informativo ------ */
+
 /* ---------- Responsive Design ---------- */
 @media (max-width: 768px) {
   .headerPrincipal .container {
@@ -77,5 +93,8 @@
   }
   .rodapePrincipal-contatoForm-fieldset {
     justify-content: center;
+  }
+  .headerPrincipal-nav-list-app {
+    order: -1;
   }
 }
